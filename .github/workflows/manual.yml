@@ -26,6 +26,7 @@ jobs:
     # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
     # Runs a single command using the runners shell
-    - name: Send greeting
+    - name: Print Working file
       run: pwd
+    - name: Send greeting
       run: scripts/run.sh
