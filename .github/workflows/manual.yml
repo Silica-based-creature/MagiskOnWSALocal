@@ -28,6 +28,8 @@ jobs:
     # Runs a single command using the runners shell
     - name: Print Working file
       run: pwd
+    - name: return to past cd
+      run: cd ..
     - name: Print file list
       run: ls -l
     #- name: Send greeting
