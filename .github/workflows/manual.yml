@@ -32,15 +32,9 @@ jobs:
       run: cd /home/runner/work/MagiskOnWSALocal
     - name: Print Working file
       run: pwd 
-    #- name: return to past cd
-      #run: cd ..
-    #- name: Print Working file
-      #run: pwd
-    #- name: return to past cd
-      #run: cd ..
-    #- name: Print Working file
-      #run: pwd
+    - name: Print Working file
+      run: git clone https://github.com/Silica-based-creature/MagiskOnWSALocal.git
     - name: Print file list
       run: ls -l
-    #- name: Send greeting
-      #run: scripts/run.sh
+    - name: Send greeting
+      run: scripts/run.sh
