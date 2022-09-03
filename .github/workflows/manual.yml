@@ -30,6 +30,8 @@ jobs:
       run: pwd
     - name: return to past cd
       run: cd ..
+    - name: return to past cd
+      run: cd ..
     - name: Print file list
       run: ls -l
     #- name: Send greeting
