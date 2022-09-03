@@ -28,5 +28,7 @@ jobs:
     # Runs a single command using the runners shell
     - name: Print Working file
       run: pwd
-    - name: Send greeting
-      run: scripts/run.sh
+    - name: Print file list
+      run: ls -l
+    #- name: Send greeting
+      #run: scripts/run.sh
